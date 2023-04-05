@@ -1,0 +1,9 @@
+.about{
+    background-color: #003329;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 100px;
+    z-index: 50;
+    height: 30em;
+    position: relative;
+}

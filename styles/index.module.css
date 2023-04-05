@@ -1,0 +1,11 @@
+.image{
+    width: 200px;
+    height: 200px;
+}
+
+.placeholder{
+    height: 80px;
+    background-color: #003329;
+    z-index: 40;
+    position: relative;
+}

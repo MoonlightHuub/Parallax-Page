@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+.hero{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    overflow: hidden;
+}
+
+.title{
+    position: absolute;
+    font-size: 5em;
+    color: #f1f1f1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    font-family: 'Rubik', sans-serif;
+    z-index: 30;
+}
+
+.pos{
+    z-index: 35;
+}
+
+.pos2{
+    z-index: 40;
+}
+
+.image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
