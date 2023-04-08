@@ -15,6 +15,10 @@ function Container(props) {
           scroll-behavior: smooth;
         }
 
+        body{
+          background-color: #003329;
+        }
+
         body::-webkit-scrollbar {
           width: 10px;
           backdrop-filter: blur(10px);

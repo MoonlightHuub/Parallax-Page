@@ -1,54 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
 
-.header{
-    height: 80px;
-    display: flex;
-    color: #2C9481;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 80;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
-    backdrop-filter: blur(4px);
+@media (max-width: 640px){
+    .header{
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        color: #2C9481;
+        position: fixed;
+        left: 0;
+        right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        z-index: 80;
+        background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+        backdrop-filter: blur(4px);
+    }
+
+    .logo{
+        width: 40%;
+        display: flex;
+        align-items: center;
+    }
+
+    .title{
+        font-family: 'Rubik', sans-serif;
+        text-shadow: 2px 2px 4px rgba(255, 255, 255, .2);
+    }
+
+    .nav{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    }
+
+    .link{
+        font-size: 1.2em;
+        font-family: 'Rubik', sans-serif;
+        margin-left: 1em;
+        padding: 10px;
+        font-weight: 550;
+        border-radius: 30px;
+        background-color: #2C9481;
+        color: #f1f1f1;
+    }
+
+    .link:active{
+        transition: .2s;
+        transform: scale(.9);
+    }
+
 }
 
-.logo{
-    width: 40%;
-    display: flex;
-    align-items: center;
+@media (min-width: 640px){
+    .header{
+        height: 80px;
+        display: flex;
+        color: #2C9481;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 80;
+        background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+        backdrop-filter: blur(4px);
+    }
+    
+    .logo{
+        width: 40%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .title{
+        margin-left: 2em;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .nav{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    }
+    
+    .link{
+        font-size: 1.5em;
+        font-family: 'Rubik', sans-serif;
+        margin-left: 2em;
+        padding: 10px;
+        font-weight:550;
+        border-radius: 30px;
+        background-color: #f1f1f1;
+    }
+    
+    .link:hover{
+        cursor: pointer;
+        background-color: #2C9481;
+        padding: 10px;
+        color: #f1f1f1;
+        transition: .2s;
+    }
 }
-
-.title{
-    margin-left: 2em;
-    font-family: 'Rubik', sans-serif;
-
-}
-
-.nav{
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
-}
-
-.link{
-    font-size: 1.5em;
-    font-family: 'Rubik', sans-serif;
-    margin-left: 2em;
-    padding: 10px;
-    font-weight:550;
-    border-radius: 30px;
-    background-color: #f1f1f1;
-}
-
-.link:hover{
-    cursor: pointer;
-    background-color: #2C9481;
-    padding: 10px;
-    color: #f1f1f1;
-    transition: .2s;
-}
-
