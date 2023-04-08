@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
 .about{
     background-color: #003329;
     color: #f1f1f1;
     text-align: center;
     padding: 100px;
     z-index: 50;
-    height: 30em;
     position: relative;
+}
+
+.title{
+    margin-bottom: 2em;
+    font-size: 4em;
+    font-family: 'Rubik', sans-serif;
+}
+
+.paragraph{
+    font-size: 1.5em;
+    font-family: monospace;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    color: #74b2a6;
 }

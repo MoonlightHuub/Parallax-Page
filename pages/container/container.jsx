@@ -1,9 +1,12 @@
+import Head from "next/head";
+
 function Container(props) {
+
   return (
     <>
-    <head>
-      <title>Parallax Page</title>
-    </head>
+      <Head>
+        <title>Parallax Web | Demo</title>
+      </Head>
       <style jsx global>{`
         * {
           margin: 0;

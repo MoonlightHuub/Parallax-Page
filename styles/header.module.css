@@ -9,7 +9,9 @@
     right: 0;
     top: 0;
     z-index: 80;
-    background-color: transparent;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+    backdrop-filter: blur(4px);
 }
 
 .logo{
@@ -29,6 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 }
 
 .link{
@@ -38,6 +41,7 @@
     padding: 10px;
     font-weight:550;
     border-radius: 30px;
+    background-color: #f1f1f1;
 }
 
 .link:hover{
